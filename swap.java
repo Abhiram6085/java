@@ -11,7 +11,7 @@ int dc=500;
 System.out.println(total);
 if(total>5000)
 {
-dis=0.05*total;
+dis=0.10*total;
 dc=0;
 }
 total=total-dis+dc;
