@@ -1,1 +1,427 @@
-pro player vs bot player
+Admin@DESKTOP-9S845DG MINGW64 ~
+$ git version
+git version 2.46.0.windows.1
+
+Admin@DESKTOP-9S845DG MINGW64 ~
+$ pwd
+/c/Users/Admin
+
+Admin@DESKTOP-9S845DG MINGW64 ~
+$ cd java?
+bash: cd: java?: No such file or directory
+
+Admin@DESKTOP-9S845DG MINGW64 ~
+$ cd java/
+bash: cd: java/: No such file or directory
+
+Admin@DESKTOP-9S845DG MINGW64 ~
+$ cd java_prog/
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ git commit -m "day 1"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   mlc.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        New Text Document.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ add java_prog
+bash: add: command not found
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ git add gm.txt
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ git commit -m "day 1"
+[master efb246d] day 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 gm.txt
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 303 bytes | 303.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/madhugunja/Madhu.git
+   2507786..efb246d  master -> master
+branch 'master' set up to track 'origin/master'.
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ git add mlc.java
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ git commit -m "day1"
+[master bdd45f6] day1
+ 1 file changed, 17 insertions(+), 18 deletions(-)
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 475 bytes | 475.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/madhugunja/Madhu.git
+   efb246d..bdd45f6  master -> master
+branch 'master' set up to track 'origin/master'.
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ ^C
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ git add gm.txt
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ git commit -u origin master
+error: pathspec 'origin' did not match any file(s) known to git
+error: pathspec 'master' did not match any file(s) known to git
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ git commit -m "day1"
+[master b615fc9] day1
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 358 bytes | 358.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/madhugunja/Madhu.git
+   bdd45f6..b615fc9  master -> master
+branch 'master' set up to track 'origin/master'.
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ git clone https://github.com/Pradeepk12345/CH20.git
+Cloning into 'CH20'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 9 (delta 1), reused 8 (delta 0), pack-reused 0
+Receiving objects: 100% (9/9), done.
+Resolving deltas: 100% (1/1), done.
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ cd java/
+bash: cd: java/: No such file or directory
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ pwd
+/c/Users/Admin/java_prog
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ cd java_prog/
+bash: cd: java_prog/: No such file or directory
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ cd CH20
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog/CH20 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog/CH20 (master)
+$ git add .
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog/CH20 (master)
+$ git commit -m "day1"
+[master f62ea08] day1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 new.txt
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog/CH20 (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 320 bytes | 320.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Pradeepk12345/CH20.git
+   2905eb1..f62ea08  master -> master
+branch 'master' set up to track 'origin/master'.
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog/CH20 (master)
+$ git add prgm.java
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog/CH20 (master)
+$ git commit -m "day2"
+[master 84afb38] day2
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog/CH20 (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 290 bytes | 290.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Pradeepk12345/CH20.git
+   f62ea08..84afb38  master -> master
+branch 'master' set up to track 'origin/master'.
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog/CH20 (master)
+$ git pull
+Already up to date.
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog/CH20 (master)
+$ git pwd
+git: 'pwd' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog/CH20 (master)
+$ pwd
+/c/Users/Admin/java_prog/CH20
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog/CH20 (master)
+$ cd java_prog/
+bash: cd: java_prog/: No such file or directory
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog/CH20 (master)
+$ pwd
+/c/Users/Admin/java_prog/CH20
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog/CH20 (master)
+$ cd java_prog
+bash: cd: java_prog: No such file or directory
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog/CH20 (master)
+$ cd java_prog/
+bash: cd: java_prog/: No such file or directory
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog/CH20 (master)
+$ cd ..
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ pwd
+/c/Users/Admin/java_prog
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ cd ..
+
+Admin@DESKTOP-9S845DG MINGW64 ~
+$ pwd
+/c/Users/Admin
+
+Admin@DESKTOP-9S845DG MINGW64 ~
+$ cd java_prog/
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ git pull
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 6 (delta 3), reused 6 (delta 3), pack-reused 0
+Unpacking objects: 100% (6/6), 518 bytes | 23.00 KiB/s, done.
+From https://github.com/madhugunja/Madhu
+   b615fc9..f922e44  master     -> origin/master
+Updating b615fc9..f922e44
+Fast-forward
+ Clone.txt      | 1 +
+ reversing.java | 2 +-
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 Clone.txt
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ git log
+commit f922e44afc984d3fb9e078066b15f5857c520f05 (HEAD -> master, origin/master)
+Author: Pradeep12345 <pupychintu123@gmail.com>
+Date:   Thu Aug 1 12:08:59 2024 +0530
+
+    moified by Pradeep
+
+commit 41c5ed690d9bfa54da9d93e4c971249d16116c2b
+Author: abhirammareddy <abhirammareddy@gmail.com>
+Date:   Thu Aug 1 12:01:47 2024 +0530
+
+    modified by abhi
+
+commit b615fc9aaecd80e51b5e3d150bc8ae33a52787f7
+Author: madhugunja <217r5a6617@cmrtc.ac.in>
+Date:   Thu Aug 1 11:38:54 2024 +0530
+
+    day1
+
+commit bdd45f6d9f7f64e54d360ae3c16a6d4d6c95946c
+Author: madhugunja <217r5a6617@cmrtc.ac.in>
+Date:   Thu Aug 1 11:35:12 2024 +0530
+
+    day1
+:
+commit f922e44afc984d3fb9e078066b15f5857c520f05 (HEAD -> master, origin/master)
+Author: Pradeep12345 <pupychintu123@gmail.com>
+Date:   Thu Aug 1 12:08:59 2024 +0530
+
+    moified by Pradeep
+
+commit 41c5ed690d9bfa54da9d93e4c971249d16116c2b
+Author: abhirammareddy <abhirammareddy@gmail.com>
+Date:   Thu Aug 1 12:01:47 2024 +0530
+
+    modified by abhi
+
+commit b615fc9aaecd80e51b5e3d150bc8ae33a52787f7
+Author: madhugunja <217r5a6617@cmrtc.ac.in>
+Date:   Thu Aug 1 11:38:54 2024 +0530
+
+    day1
+
+commit bdd45f6d9f7f64e54d360ae3c16a6d4d6c95946c
+Author: madhugunja <217r5a6617@cmrtc.ac.in>
+Date:   Thu Aug 1 11:35:12 2024 +0530
+
+    day1
+:
+commit f922e44afc984d3fb9e078066b15f5857c520f05 (HEAD -> master, origin/master)
+Author: Pradeep12345 <pupychintu123@gmail.com>
+Date:   Thu Aug 1 12:08:59 2024 +0530
+
+    moified by Pradeep
+
+commit 41c5ed690d9bfa54da9d93e4c971249d16116c2b
+Author: abhirammareddy <abhirammareddy@gmail.com>
+Date:   Thu Aug 1 12:01:47 2024 +0530
+
+    modified by abhi
+
+commit b615fc9aaecd80e51b5e3d150bc8ae33a52787f7
+Author: madhugunja <217r5a6617@cmrtc.ac.in>
+Date:   Thu Aug 1 11:38:54 2024 +0530
+
+    day1
+
+commit bdd45f6d9f7f64e54d360ae3c16a6d4d6c95946c
+Author: madhugunja <217r5a6617@cmrtc.ac.in>
+Date:   Thu Aug 1 11:35:12 2024 +0530
+
+    day1
+
+:
+Author: Pradeep12345 <pupychintu123@gmail.com>
+Date:   Thu Aug 1 12:08:59 2024 +0530
+
+    moified by Pradeep
+
+commit 41c5ed690d9bfa54da9d93e4c971249d16116c2b
+Author: abhirammareddy <abhirammareddy@gmail.com>
+Date:   Thu Aug 1 12:01:47 2024 +0530
+
+    modified by abhi
+
+commit b615fc9aaecd80e51b5e3d150bc8ae33a52787f7
+Author: madhugunja <217r5a6617@cmrtc.ac.in>
+Date:   Thu Aug 1 11:38:54 2024 +0530
+
+    day1
+
+commit bdd45f6d9f7f64e54d360ae3c16a6d4d6c95946c
+Author: madhugunja <217r5a6617@cmrtc.ac.in>
+Date:   Thu Aug 1 11:35:12 2024 +0530
+
+    day1
+
+commit efb246dac09807777ef79e1a376a161d778170c8
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ git log --oneline
+f922e44 (HEAD -> master, origin/master) moified by Pradeep
+41c5ed6 modified by abhi
+b615fc9 day1
+bdd45f6 day1
+efb246d day 1
+2507786 added
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ clone https://github.com/Abhiram6085/java.git
+bash: clone: command not found
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ git clone https://github.com/Abhiram6085/java.git
+Cloning into 'java'...
+remote: Enumerating objects: 20, done.
+remote: Counting objects: 100% (20/20), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 20 (delta 3), reused 20 (delta 3), pack-reused 0
+Receiving objects: 100% (20/20), done.
+Resolving deltas: 100% (3/3), done.
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ pwd
+/c/Users/Admin/java_prog
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog (master)
+$ cd java
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog/java (main)
+$ git add .
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog/java (main)
+$ git commit -m "day1"
+[main ca897f6] day1
+ 2 files changed, 1 insertion(+), 17 deletions(-)
+ create mode 100644 bgmi.txt
+ delete mode 100644 p5.java
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog/java (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 288 bytes | 288.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Abhiram6085/java.git
+   d8aed3c..ca897f6  main -> main
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog/java (main)
+$ git add .
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog/java (main)
+$ git commit -m "day2"
+[main f4c7677] day2
+ 2 files changed, 1 insertion(+), 19 deletions(-)
+ delete mode 100644 p9.java
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog/java (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 295 bytes | 295.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Abhiram6085/java.git
+   ca897f6..f4c7677  main -> main
+
+Admin@DESKTOP-9S845DG MINGW64 ~/java_prog/java (main)
+$
