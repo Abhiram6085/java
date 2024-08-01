@@ -15,7 +15,7 @@ dis=0.10*total;
 dc=0;
 }
 total=total-dis+dc;
-System.out.println(total);
+System.out.println(total+100);
 System.out.println(dis);
 }
 }
